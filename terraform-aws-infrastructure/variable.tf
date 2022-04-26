@@ -48,7 +48,7 @@ variable "private-subnet-4-cidr" {
 }
 
 variable "ssh-location" {
-  default       = "77.93.1.102/32"
+  default       = "0.0.0.0/0"
   description   = "IP Address that can SSH into EC2 (Bastion Host) Instance"
   type          = string
 }
